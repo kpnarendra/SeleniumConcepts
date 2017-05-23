@@ -13,12 +13,14 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-import generalFunctions.loggerClass;
+
 
 public class commonFunctions {
 
@@ -28,7 +30,7 @@ public class commonFunctions {
 	// any KEYS sent as parameter.
 	// ----------------------------------------------------------------------------------------------------------------------------------------------------
 	public WebDriver driver;
-	
+	public static final Logger writeLogFile = LogManager.getLogger(commonFunctions.class);
 
 
 	private String fetchProperties(String key) {
@@ -42,10 +44,10 @@ public class commonFunctions {
 			fileInput.close();
 		} catch (IOException e) {
 			e.printStackTrace();
-			loggerClass.writeFile.error(file + " is not found or may have readability issues");
+			writeLogFile.error(file + " is not found or may have readability issues" + e);
 			System.exit(1); // For Jenkins
 		}
-		loggerClass.writeFile.info("Returned : " + "'" + prop.getProperty(key) + "'" + " for Key : " + key);
+		writeLogFile.info("Returned : " + "'" + prop.getProperty(key) + "'" + " for Key : " + key);
 		return prop.getProperty(key);
 	}
 
@@ -64,7 +66,7 @@ public class commonFunctions {
 		} else if (browserTypeChoice.equals("FIREFOX")) {
 			invokeFireFoxDriver();
 		} else {
-			loggerClass.writeFile.error("WARNING : Invalid browser type selected in data.properties");
+			writeLogFile.error("ERROR : Invalid browser type selected in data.properties");
 			System.exit(1); // For Jenkins
 		}
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
@@ -81,7 +83,7 @@ public class commonFunctions {
 		} else if (proxyChoice.equalsIgnoreCase("no")) {
 			driver = new InternetExplorerDriver();
 		} else {
-			loggerClass.writeFile.error("WARNING : Invalid PROXY configured in data.properties");
+			writeLogFile.error("ERROR : Invalid PROXY configured in data.properties");
 			System.exit(1);
 		}
 		driver.manage().window().maximize();
@@ -97,7 +99,7 @@ public class commonFunctions {
 					System.getProperty("user.dir") + "\\chromedriver\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} else {
-			loggerClass.writeFile.error("WARNING : Invalid PROXY configured in data.properties");
+			writeLogFile.error("ERROR : Invalid PROXY configured in data.properties");
 			System.exit(1);
 		}
 		driver.manage().window().maximize();
@@ -112,7 +114,7 @@ public class commonFunctions {
 					System.getProperty("user.dir") + "\\GeckoDriver\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		} else {
-			loggerClass.writeFile.error("WARNING : Invalid PROXY configured in data.properties");
+			writeLogFile.error("ERROR : Invalid PROXY configured in data.properties");
 			System.exit(1);
 		}
 		driver.manage().window().maximize();

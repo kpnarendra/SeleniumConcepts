@@ -1,38 +1,132 @@
-2017-05-23 15:42:16 INFO  loggerClass:48 - Returned : 'IE' for Key : BROWSERTYPE
-2017-05-23 15:42:16 INFO  loggerClass:48 - Returned : 'NO' for Key : PROXY
-2017-05-23 15:42:33 INFO  loggerClass:23 - InternetExplorerDriver: internet explorer on WINDOWS (7f4dea6c-2dfd-4068-bde5-3e6ed7f886ba)
-2017-05-23 15:42:45 INFO  loggerClass:49 - END OF TEST EXECUTION
-2017-05-23 15:44:56 INFO  loggerClass:48 - Returned : 'IE' for Key : BROWSERTYPE
-2017-05-23 15:44:56 INFO  loggerClass:48 - Returned : 'NO' for Key : PROXY
-2017-05-23 15:45:03 INFO  loggerClass:23 - InternetExplorerDriver: internet explorer on WINDOWS (11c54956-4bb6-46ae-a633-1903e4358ed5)
-2017-05-23 15:45:12 INFO  loggerClass:49 - END OF TEST EXECUTION
-2017-05-23 16:12:31 INFO  loggerClass:48 - Returned : 'IE' for Key : BROWSERTYPE
-2017-05-23 16:12:32 INFO  loggerClass:48 - Returned : 'NO' for Key : PROXY
-2017-05-23 16:12:54 INFO  loggerClass:23 - InternetExplorerDriver: internet explorer on WINDOWS (a9444d39-2071-484a-8dbd-5fd58f1473c4)
-2017-05-23 16:13:03 ERROR loggerClass:54 - Failed at @AfterClass in Class : class testSuit.testCases with Message Unable to get browser (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 94 milliseconds
+2017-05-23 22:19:54 INFO  loggerClass:17 - Start of Test method openGoogle
+2017-05-23 22:19:54 INFO  loggerClass:48 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-23 22:19:54 INFO  loggerClass:48 - Returned : 'NO' for Key : PROXY
+2017-05-23 22:20:10 INFO  loggerClass:45 - Start of method afterMethod
+2017-05-23 22:20:16 ERROR loggerClass:57 - Failed at @AfterClass in Class : class testSuit.testCases with Message null
+2017-05-23 22:25:02 INFO  loggerClass:18 - Start of Test method openGoogle
+2017-05-23 22:25:02 INFO  loggerClass:48 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-23 22:25:02 INFO  loggerClass:48 - Returned : 'NO' for Key : PROXY
+2017-05-23 22:25:19 ERROR loggerClass:24 - Failed in test method openGoogle with message :Not a Number
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:41673/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
-Session ID: a9444d39-2071-484a-8dbd-5fd58f1473c4
-2017-05-23 16:47:52 INFO  loggerClass:48 - Returned : 'IE' for Key : BROWSERTYPE
-2017-05-23 16:47:52 INFO  loggerClass:48 - Returned : 'NO' for Key : PROXY
-2017-05-23 16:48:28 INFO  loggerClass:23 - InternetExplorerDriver: internet explorer on WINDOWS (a5e61e8f-18fa-49da-8b17-d4e8d6973823)
-2017-05-23 16:48:36 ERROR loggerClass:54 - Failed at @AfterClass in Class : class testSuit.testCases with Message Unable to get browser (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 83 milliseconds
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161208153507, version=50.1.0, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=13696.0, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1f6bde62-8a6e-478b-83d9-d6c3b6e97950
+2017-05-23 22:25:19 INFO  loggerClass:31 - Start of Test method recordPageTitle
+2017-05-23 22:25:25 INFO  loggerClass:50 - Start of method afterMethod
+2017-05-23 22:25:31 ERROR loggerClass:62 - Failed at @AfterClass in Class : class testSuit.testCases with Message null
+2017-05-23 22:31:52 INFO  root:18 - Start of Test method openGoogle
+2017-05-23 22:31:52 INFO  root:48 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-23 22:31:52 INFO  root:48 - Returned : 'NO' for Key : PROXY
+2017-05-23 22:32:03 ERROR root:24 - Failed in test method openGoogle with message :Not a Number
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:42127/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
-Session ID: a5e61e8f-18fa-49da-8b17-d4e8d6973823
-2017-05-23 17:25:12 INFO  loggerClass:48 - Returned : 'IE' for Key : BROWSERTYPE
-2017-05-23 17:25:12 INFO  loggerClass:48 - Returned : 'NO' for Key : PROXY
-2017-05-23 17:26:06 INFO  loggerClass:23 - InternetExplorerDriver: internet explorer on WINDOWS (53d706e7-7bf0-4baf-b9b1-ce865dba892a)
-2017-05-23 17:26:14 ERROR loggerClass:54 - Failed at @AfterClass in Class : class testSuit.testCases with Message Unable to get browser (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 98 milliseconds
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161208153507, version=50.1.0, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=14052.0, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 35fb5570-4123-45f8-ab31-a1524980e2fc
+2017-05-23 22:32:03 INFO  root:31 - Start of Test method recordPageTitle
+2017-05-23 22:32:09 INFO  root:50 - Start of method afterMethod
+2017-05-23 22:32:15 ERROR root:62 - Failed at @AfterClass in Class : class testSuit.testCases with Message null
+2017-05-23 22:40:00 INFO  commonFunctions:20 - Start of Test method openGoogle
+2017-05-23 22:40:00 INFO  commonFunctions:50 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-23 22:40:00 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-23 22:40:12 ERROR commonFunctions:26 - Failed in test method openGoogle with message :Not a Number
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:41580/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
-Session ID: 53d706e7-7bf0-4baf-b9b1-ce865dba892a
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161208153507, version=50.1.0, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, processId=11160.0, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 28930e70-9314-48fc-a248-d2f51821c855
+2017-05-23 22:40:12 INFO  commonFunctions:33 - Start of Test method recordPageTitle
+2017-05-23 22:40:18 INFO  commonFunctions:52 - Start of method afterMethod
+2017-05-23 22:40:24 ERROR commonFunctions:64 - Failed at @AfterClass in Class : class testSuit.testCases with Message null
+2017-05-23 22:41:31 INFO  commonFunctions:20 - Start of Test method openGoogle
+2017-05-23 22:41:31 INFO  commonFunctions:50 - Returned : 'CHROME' for Key : BROWSERTYPE
+2017-05-23 22:41:31 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-23 22:41:39 INFO  commonFunctions:22 - ChromeDriver: chrome on XP (d90d5d99e2f3c33e0f6b819199fac68e)
+2017-05-23 22:41:54 INFO  commonFunctions:24 - End of Test method openGoogle
+2017-05-23 22:41:54 INFO  commonFunctions:33 - Start of Test method recordPageTitle
+2017-05-23 22:42:00 INFO  commonFunctions:39 - Page title is : Google
+2017-05-23 22:42:00 INFO  commonFunctions:40 - Page handler is : CDwindow-72e645db-da22-4876-b204-e2d7f41d4874
+2017-05-23 22:42:00 INFO  commonFunctions:41 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=TG0kWZjIH6_v8wf1p7ngDQ&gws_rd=ssl
+2017-05-23 22:42:00 INFO  commonFunctions:42 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@272113c4
+2017-05-23 22:42:00 INFO  commonFunctions:47 - End of Test method recordPageTitle
+2017-05-23 22:42:00 INFO  commonFunctions:52 - Start of method afterMethod
+2017-05-23 22:42:08 INFO  commonFunctions:68 - END OF TEST EXECUTION
+2017-05-23 22:42:08 INFO  commonFunctions:69 - End of method afterMethod
+2017-05-23 22:47:58 INFO  commonFunctions:20 - Start of Test method openGoogle
+2017-05-23 22:47:58 INFO  commonFunctions:50 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-23 22:47:58 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-23 22:48:15 INFO  commonFunctions:22 - FirefoxDriver: firefox on ANY (216d96b6-cb8f-445a-b2a5-db0c3c9fbb21)
+2017-05-23 22:48:25 INFO  commonFunctions:24 - End of Test method openGoogle
+2017-05-23 22:48:25 INFO  commonFunctions:33 - Start of Test method recordPageTitle
+2017-05-23 22:48:31 INFO  commonFunctions:39 - Page title is : Google
+2017-05-23 22:48:31 INFO  commonFunctions:40 - Page handler is : 13
+2017-05-23 22:48:31 INFO  commonFunctions:41 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=0W4kWZvwNKXv8wei-bDYCw&gws_rd=ssl
+2017-05-23 22:48:31 INFO  commonFunctions:42 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@2a265ea9
+2017-05-23 22:48:31 INFO  commonFunctions:47 - End of Test method recordPageTitle
+2017-05-23 22:48:31 INFO  commonFunctions:52 - Start of method afterMethod
+2017-05-23 22:48:38 ERROR commonFunctions:64 - Failed at @AfterClass in Class : class testSuit.testCases with Message Tried to run command without establishing a connection
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Neethu\AppData\Local\Temp\rust_mozprofile.iA0COySdGqxx, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.2, platformVersion=10.0, moz:processID=12588.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 216d96b6-cb8f-445a-b2a5-db0c3c9fbb21
+2017-05-23 22:51:03 INFO  testCases:20 - Start of Test method openGoogle
+2017-05-23 22:51:03 INFO  commonFunctions:50 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-23 22:51:03 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-23 22:51:46 INFO  testCases:22 - FirefoxDriver: firefox on ANY (12fab878-5144-482e-8790-00d3552642b6)
+2017-05-23 22:51:49 INFO  testCases:24 - End of Test method openGoogle
+2017-05-23 22:51:49 INFO  testCases:33 - Start of Test method recordPageTitle
+2017-05-23 22:51:55 INFO  testCases:39 - Page title is : Google
+2017-05-23 22:51:55 INFO  testCases:40 - Page handler is : 13
+2017-05-23 22:51:55 INFO  testCases:41 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=pW8kWbKIHaXv8wei-bDYCw&gws_rd=ssl
+2017-05-23 22:51:55 INFO  testCases:42 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@2a265ea9
+2017-05-23 22:51:55 INFO  testCases:47 - End of Test method recordPageTitle
+2017-05-23 22:51:55 INFO  testCases:52 - Start of method afterMethod
+2017-05-23 22:52:02 ERROR testCases:64 - Failed at @AfterClass in Class : class testSuit.testCases with Message Tried to run command without establishing a connection
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Neethu\AppData\Local\Temp\rust_mozprofile.JBvIa5DVFLMm, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.2, platformVersion=10.0, moz:processID=3248.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 12fab878-5144-482e-8790-00d3552642b6
+2017-05-23 22:56:17 INFO  testCases:20 - Start of Test method openGoogle
+2017-05-23 22:56:17 INFO  commonFunctions:50 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-23 22:56:17 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-23 22:56:46 INFO  testCases:22 - FirefoxDriver: firefox on ANY (9a0b9bb8-90cc-44f7-aa17-a0a1140ec0f2)
+2017-05-23 22:56:53 INFO  testCases:24 - End of Test method openGoogle
+2017-05-23 22:56:53 INFO  testCases:33 - Start of Test method recordPageTitle
+2017-05-23 22:56:59 INFO  testCases:39 - Page title is : Google
+2017-05-23 22:56:59 INFO  testCases:40 - Page handler is : 13
+2017-05-23 22:56:59 INFO  testCases:41 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=0HAkWZeLLqLv8wek2Lu4DA&gws_rd=ssl
+2017-05-23 22:56:59 INFO  testCases:42 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@2a265ea9
+2017-05-23 22:57:00 INFO  testCases:47 - End of Test method recordPageTitle
+2017-05-23 22:57:00 INFO  testCases:52 - Start of method afterMethod
+2017-05-23 22:57:06 ERROR testCases:64 - Failed at @AfterClass in Class : class testSuit.testCases with Message Tried to run command without establishing a connection
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Neethu\AppData\Local\Temp\rust_mozprofile.B0ifkTO0isW6, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=2136.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 9a0b9bb8-90cc-44f7-aa17-a0a1140ec0f2
+2017-05-23 23:02:36 INFO  testCases:20 - Start of Test method openGoogle
+2017-05-23 23:02:36 INFO  commonFunctions:50 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-23 23:02:36 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-23 23:03:02 INFO  testCases:22 - FirefoxDriver: firefox on ANY (922df9c5-2b29-4a97-9228-3a84461cf1aa)
+2017-05-23 23:03:06 INFO  testCases:24 - End of Test method openGoogle
+2017-05-23 23:03:06 INFO  testCases:33 - Start of Test method recordPageTitle
+2017-05-23 23:03:12 INFO  testCases:39 - Page title is : Google
+2017-05-23 23:03:12 INFO  testCases:40 - Page handler is : 13
+2017-05-23 23:03:12 INFO  testCases:41 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=SXIkWYSKBK3v8weQz7rYBg&gws_rd=ssl
+2017-05-23 23:03:12 INFO  testCases:42 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@2a265ea9
+2017-05-23 23:03:12 INFO  testCases:47 - End of Test method recordPageTitle
+2017-05-23 23:03:12 INFO  testCases:52 - Start of method afterMethod
+2017-05-23 23:03:18 ERROR testCases:64 - Failed at @AfterClass in Class : class testSuit.testCases with Message Tried to run command without establishing a connection
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Neethu\AppData\Local\Temp\rust_mozprofile.MaGBa9rqY7QN, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=10956.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 922df9c5-2b29-4a97-9228-3a84461cf1aaorg.openqa.selenium.WebDriverException: Tried to run command without establishing a connection
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Neethu\AppData\Local\Temp\rust_mozprofile.MaGBa9rqY7QN, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=10956.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 922df9c5-2b29-4a97-9228-3a84461cf1aa

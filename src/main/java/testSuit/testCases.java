@@ -1,66 +1,72 @@
 package testSuit;
 
-
 import static org.testng.Assert.assertEquals;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 import generalFunctions.commonFunctions;
-import generalFunctions.loggerClass;
-
 
 
 public class testCases extends commonFunctions {
 
 	commonFunctions commonControl = new commonFunctions();
-
-	
-	@Test (alwaysRun = true ,description = "Open Google home page in the selected browser")
-	public void openGoogle(){
-		
-		driver = commonControl.invokeBrowser();
-		
-		loggerClass.writeFile.info(driver);
-		driver.get("http://www.google.com");
+	public static final Logger writeLogFile = LogManager.getLogger(testCases.class);
+	@Test(alwaysRun = true, description = "Open Google home page in the selected browser")
+	public void openGoogle() {
+		try {
+			writeLogFile.info("Start of Test method openGoogle");
+			driver = commonControl.invokeBrowser();
+			writeLogFile.info(driver);
+			driver.get("http://www.google.com");
+			writeLogFile.info("End of Test method openGoogle");
+		} catch (Exception e) {
+			writeLogFile.error("Failed in test method openGoogle with message :" + e.getMessage() + e);
+			e.printStackTrace();
+		}
 	}
-	
-	@Test (dependsOnMethods = "openGoogle" , description = "check the page title on browser")
-	public void recordPageTitle(){
+
+	@Test(dependsOnMethods = "openGoogle", description = "check the page title on browser")
+	public void recordPageTitle() {
+		writeLogFile.info("Start of Test method recordPageTitle");
 		try {
 			Thread.sleep(6000);
 		} catch (InterruptedException e1) {
 			e1.printStackTrace();
 		}
-		loggerClass.writeFile.info("Page title is : "+driver.getTitle());
-		loggerClass.writeFile.info("Page handler is : "+driver.getWindowHandle());
-		loggerClass.writeFile.info("Page current URL is : "+driver.getCurrentUrl());
-		loggerClass.writeFile.info("Page Capeabilities is : " + driver.manage().window());
-		//System.out.println("Page page Source is : "+driver.getPageSource());
-		//WebDriverWait wait = new WebDriverWait(driver, 10);
+		writeLogFile.info("Page title is : " + driver.getTitle());
+		writeLogFile.info("Page handler is : " + driver.getWindowHandle());
+		writeLogFile.info("Page current URL is : " + driver.getCurrentUrl());
+		writeLogFile.info("Page Capeabilities is : " + driver.manage().window());
+		// System.out.println("Page page Source is : "+driver.getPageSource());
+		// WebDriverWait wait = new WebDriverWait(driver, 10);
 
-		
 		assertEquals(driver.getTitle(), "Google");
+		writeLogFile.info("End of Test method recordPageTitle");
 	}
-	@AfterClass (alwaysRun = true)
-	public void afterMethod()
-	{
-		try{
-		driver.close();
-		driver.quit();
-		driver=null;
+
+	@AfterClass(alwaysRun = true)
+	public void afterMethod() {
+		writeLogFile.info("Start of method afterMethod");
+		try {
+			Thread.sleep(6000);
+		} catch (InterruptedException e1) {
+			e1.printStackTrace();
 		}
-		catch (Exception e)
-		{
-			loggerClass.writeFile.error("Failed at @AfterClass in Class : "+ this.getClass() + " with Message " + e.getMessage());
+		try {
+			driver.close();
+			driver.quit();
+			driver = null;
+		} catch (Exception e) {
+			writeLogFile
+					.error("Failed at @AfterClass in Class : " + this.getClass() + " with Message " + e.getMessage() + e);
 			e.printStackTrace();
 			System.exit(1);
 		}
-		loggerClass.writeFile.info("END OF TEST EXECUTION");
-		
+		writeLogFile.info("END OF TEST EXECUTION");
+		writeLogFile.info("End of method afterMethod");
 	}
 
-
-	
-	
-	
 }
