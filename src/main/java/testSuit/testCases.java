@@ -10,11 +10,11 @@ import org.testng.annotations.Test;
 
 import generalFunctions.commonFunctions;
 
-
 public class testCases extends commonFunctions {
 
 	commonFunctions commonControl = new commonFunctions();
 	public static final Logger writeLogFile = LogManager.getLogger(testCases.class);
+
 	@Test(alwaysRun = true, description = "Open Google home page in the selected browser")
 	public void openGoogle() {
 		try {
@@ -44,7 +44,7 @@ public class testCases extends commonFunctions {
 			writeLogFile.info("Page current URL is : " + driver.getCurrentUrl());
 			writeLogFile.info("Page Capeabilities is : " + driver.manage().window());
 		} catch (Exception e) {
-			writeLogFile.error("Failed in test method recordPageTitle with message "+ e.getMessage() + e);
+			writeLogFile.error("Failed in test method recordPageTitle with message " + e.getMessage() + e);
 			e.printStackTrace();
 			System.exit(1);
 		}
@@ -64,19 +64,18 @@ public class testCases extends commonFunctions {
 			e1.printStackTrace();
 		}
 		try {
-	        String browserName = (String) ((JavascriptExecutor) driver).executeScript("return navigator.userAgent;");
-	        writeLogFile.info("Browser name : " + browserName);
-			
-	        if(!(browserName.toLowerCase().contains("firefox")))
-	        {
-	        writeLogFile.info("Not FireFox browser !!!");
-			driver.close();
-	        }
+			String browserName = (String) ((JavascriptExecutor) driver).executeScript("return navigator.userAgent;");
+			writeLogFile.info("Browser name : " + browserName);
+
+			if (!(browserName.toLowerCase().contains("firefox"))) {
+				writeLogFile.info("Not FireFox browser !!!");
+				driver.close();
+			}
 			driver.quit();
 			driver = null;
 		} catch (Exception e) {
-			writeLogFile
-					.error("Failed at @AfterClass in Class : " + this.getClass() + " with Message " + e.getMessage() + e);
+			writeLogFile.error(
+					"Failed at @AfterClass in Class : " + this.getClass() + " with Message " + e.getMessage() + e);
 			e.printStackTrace();
 			System.exit(1);
 		}
