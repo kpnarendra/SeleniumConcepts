@@ -56,6 +56,7 @@ public class testCases extends commonFunctions {
 			System.exit(1);
 		}
 		loggerClass.writeFile.info("END OF TEST EXECUTION");
+		
 	}
 
 
