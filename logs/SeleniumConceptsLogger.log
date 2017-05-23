@@ -130,3 +130,222 @@ System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{moz:profile=C:\Users\Neethu\AppData\Local\Temp\rust_mozprofile.MaGBa9rqY7QN, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=10956.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
 Session ID: 922df9c5-2b29-4a97-9228-3a84461cf1aa
+2017-05-23 23:23:02 INFO  testCases:20 - Start of Test method openGoogle
+2017-05-23 23:23:02 INFO  commonFunctions:50 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-23 23:23:02 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-23 23:23:11 INFO  testCases:22 - FirefoxDriver: firefox on ANY (34ecda17-dcc5-402a-bba8-b6922ad6070c)
+2017-05-23 23:23:13 INFO  testCases:24 - End of Test method openGoogle
+2017-05-23 23:23:13 INFO  testCases:33 - Start of Test method recordPageTitle
+2017-05-23 23:23:19 INFO  testCases:39 - Page title is : Google
+2017-05-23 23:23:19 INFO  testCases:40 - Page handler is : 13
+2017-05-23 23:23:19 INFO  testCases:41 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=AnckWc3YHqPv8wea6YmYCQ&gws_rd=ssl
+2017-05-23 23:23:19 INFO  testCases:42 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@11392934
+2017-05-23 23:23:19 INFO  testCases:47 - End of Test method recordPageTitle
+2017-05-23 23:23:19 INFO  testCases:52 - Start of method afterMethod
+2017-05-23 23:23:26 ERROR testCases:64 - Failed at @AfterClass in Class : class testSuit.testCases with Message Tried to run command without establishing a connection
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Neethu\AppData\Local\Temp\rust_mozprofile.uZpFeBvFC69M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12616.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 34ecda17-dcc5-402a-bba8-b6922ad6070corg.openqa.selenium.WebDriverException: Tried to run command without establishing a connection
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Neethu\AppData\Local\Temp\rust_mozprofile.uZpFeBvFC69M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12616.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 34ecda17-dcc5-402a-bba8-b6922ad6070c
+2017-05-23 23:26:46 INFO  testCases:20 - Start of Test method openGoogle
+2017-05-23 23:26:46 INFO  commonFunctions:50 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-23 23:26:46 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-23 23:26:59 INFO  testCases:22 - FirefoxDriver: firefox on ANY (9f66094c-383f-41ea-93ea-2045c13a59e6)
+2017-05-23 23:27:00 INFO  testCases:24 - End of Test method openGoogle
+2017-05-23 23:27:00 INFO  testCases:33 - Start of Test method recordPageTitle
+2017-05-23 23:27:06 INFO  testCases:39 - Page title is : Google
+2017-05-23 23:27:06 INFO  testCases:40 - Page handler is : 13
+2017-05-23 23:27:06 INFO  testCases:41 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=5XckWYTgN63v8weQz7rYBg&gws_rd=ssl
+2017-05-23 23:27:06 INFO  testCases:42 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@2a265ea9
+2017-05-23 23:27:06 INFO  testCases:47 - End of Test method recordPageTitle
+2017-05-23 23:27:06 INFO  testCases:52 - Start of method afterMethod
+2017-05-23 23:27:13 INFO  testCases:68 - END OF TEST EXECUTION
+2017-05-23 23:27:13 INFO  testCases:69 - End of method afterMethod
+2017-05-23 23:34:46 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-23 23:34:46 INFO  commonFunctions:50 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-23 23:34:46 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-23 23:35:36 INFO  testCases:23 - FirefoxDriver: firefox on ANY (8874c417-d589-4eb6-abe9-569981ebc183)
+2017-05-23 23:35:37 INFO  testCases:25 - End of Test method openGoogle
+2017-05-23 23:35:37 INFO  testCases:34 - Start of Test method recordPageTitle
+2017-05-23 23:35:43 INFO  testCases:40 - Page title is : Google
+2017-05-23 23:35:43 INFO  testCases:41 - Page handler is : 13
+2017-05-23 23:35:43 INFO  testCases:42 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=6nkkWf-oKajv8wfvm7vwBg&gws_rd=ssl
+2017-05-23 23:35:43 INFO  testCases:43 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@2a265ea9
+2017-05-23 23:35:43 INFO  testCases:48 - End of Test method recordPageTitle
+2017-05-23 23:35:43 INFO  testCases:53 - Start of method afterMethod
+2017-05-23 23:35:49 INFO  testCases:61 - Browser name : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+2017-05-23 23:35:50 ERROR testCases:68 - Failed at @AfterClass in Class : class testSuit.testCases with Message Tried to run command without establishing a connection
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Neethu\AppData\Local\Temp\rust_mozprofile.gZf4m2vcljaB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=13164.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8874c417-d589-4eb6-abe9-569981ebc183org.openqa.selenium.WebDriverException: Tried to run command without establishing a connection
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Neethu\AppData\Local\Temp\rust_mozprofile.gZf4m2vcljaB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=13164.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8874c417-d589-4eb6-abe9-569981ebc183
+2017-05-23 23:40:13 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-23 23:40:13 INFO  commonFunctions:50 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-23 23:40:13 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-23 23:40:29 INFO  testCases:23 - FirefoxDriver: firefox on ANY (21bd1b94-334f-4862-8584-a2d5e0745d16)
+2017-05-23 23:40:31 INFO  testCases:25 - End of Test method openGoogle
+2017-05-23 23:40:31 INFO  testCases:34 - Start of Test method recordPageTitle
+2017-05-23 23:40:37 INFO  testCases:40 - Page title is : Google
+2017-05-23 23:40:37 INFO  testCases:41 - Page handler is : 13
+2017-05-23 23:40:37 INFO  testCases:42 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=EHskWfuzGKvv8weD7ZfoDw&gws_rd=ssl
+2017-05-23 23:40:37 INFO  testCases:43 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@6d4d66d2
+2017-05-23 23:40:37 INFO  testCases:48 - End of Test method recordPageTitle
+2017-05-23 23:40:37 INFO  testCases:53 - Start of method afterMethod
+2017-05-23 23:40:43 INFO  testCases:61 - Browser name : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+2017-05-23 23:40:44 ERROR testCases:71 - Failed at @AfterClass in Class : class testSuit.testCases with Message Tried to run command without establishing a connection
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Neethu\AppData\Local\Temp\rust_mozprofile.55KcEbXqz53a, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5480.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 21bd1b94-334f-4862-8584-a2d5e0745d16org.openqa.selenium.WebDriverException: Tried to run command without establishing a connection
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Neethu\AppData\Local\Temp\rust_mozprofile.55KcEbXqz53a, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5480.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 21bd1b94-334f-4862-8584-a2d5e0745d16
+2017-05-23 23:43:53 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-23 23:43:53 INFO  commonFunctions:50 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-23 23:43:53 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-23 23:44:07 INFO  testCases:23 - FirefoxDriver: firefox on ANY (4446968d-c40e-4c85-8884-1084bacf946e)
+2017-05-23 23:44:08 INFO  testCases:25 - End of Test method openGoogle
+2017-05-23 23:44:08 INFO  testCases:34 - Start of Test method recordPageTitle
+2017-05-23 23:44:14 INFO  testCases:40 - Page title is : Google
+2017-05-23 23:44:14 INFO  testCases:41 - Page handler is : 13
+2017-05-23 23:44:14 INFO  testCases:42 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=6XskWduSJa3v8weQz7rYBg&gws_rd=ssl
+2017-05-23 23:44:14 INFO  testCases:43 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@2a265ea9
+2017-05-23 23:44:14 INFO  testCases:48 - End of Test method recordPageTitle
+2017-05-23 23:44:14 INFO  testCases:53 - Start of method afterMethod
+2017-05-23 23:44:20 INFO  testCases:61 - Browser name : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+2017-05-23 23:44:20 INFO  testCases:76 - END OF TEST EXECUTION
+2017-05-23 23:44:20 INFO  testCases:77 - End of method afterMethod
+2017-05-23 23:52:43 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-23 23:52:43 INFO  commonFunctions:50 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-23 23:52:43 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-23 23:52:48 ERROR testCases:27 - Failed in test method openGoogle with message :Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100% (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.95 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: InternetExplorerDriverorg.openqa.selenium.NoSuchSessionException: Unexpected error launching Internet Explorer. Browser zoom level was set to 125%. It should be set to 100% (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.95 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: InternetExplorerDriver
+2017-05-23 23:52:48 INFO  testCases:34 - Start of Test method recordPageTitle
+2017-05-23 23:52:54 INFO  testCases:53 - Start of method afterMethod
+2017-05-23 23:53:00 ERROR testCases:72 - Failed at @AfterClass in Class : class testSuit.testCases with Message nulljava.lang.NullPointerException
+2017-05-23 23:54:06 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-23 23:54:06 INFO  commonFunctions:50 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-23 23:54:06 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-23 23:54:09 INFO  testCases:23 - InternetExplorerDriver: internet explorer on WINDOWS (a828e2d0-af3d-44c7-9dc9-f720d49e0a4a)
+2017-05-23 23:54:09 INFO  testCases:25 - End of Test method openGoogle
+2017-05-23 23:54:09 INFO  testCases:34 - Start of Test method recordPageTitle
+2017-05-23 23:54:15 INFO  testCases:53 - Start of method afterMethod
+2017-05-23 23:54:21 ERROR testCases:72 - Failed at @AfterClass in Class : class testSuit.testCases with Message Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:7445/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: a828e2d0-af3d-44c7-9dc9-f720d49e0a4aorg.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:7445/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: a828e2d0-af3d-44c7-9dc9-f720d49e0a4a
+2017-05-24 00:13:43 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-24 00:13:43 INFO  commonFunctions:50 - Returned : 'CHROME' for Key : BROWSERTYPE
+2017-05-24 00:13:43 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-24 00:13:53 INFO  testCases:23 - ChromeDriver: chrome on XP (66590282d6188da8002bc98909eff15e)
+2017-05-24 00:13:56 INFO  testCases:25 - End of Test method openGoogle
+2017-05-24 00:13:56 INFO  testCases:34 - Start of Test method recordPageTitle
+2017-05-24 00:14:02 INFO  testCases:40 - Page title is : Google
+2017-05-24 00:14:02 INFO  testCases:41 - Page handler is : CDwindow-e669af7e-690e-4cb2-b64b-7d4d0c1605ee
+2017-05-24 00:14:02 INFO  testCases:42 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=5YIkWeDRGKXv8wei-bDYCw&gws_rd=ssl
+2017-05-24 00:14:02 INFO  testCases:43 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@272113c4
+2017-05-24 00:14:02 INFO  testCases:48 - End of Test method recordPageTitle
+2017-05-24 00:14:02 INFO  testCases:53 - Start of method afterMethod
+2017-05-24 00:14:08 INFO  testCases:61 - Browser name : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+2017-05-24 00:14:08 INFO  testCases:65 - Not FireFox browser !!!
+2017-05-24 00:14:09 INFO  testCases:76 - END OF TEST EXECUTION
+2017-05-24 00:14:09 INFO  testCases:77 - End of method afterMethod
+2017-05-24 00:14:54 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-24 00:14:54 INFO  commonFunctions:50 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-24 00:14:54 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-24 00:15:12 INFO  testCases:23 - FirefoxDriver: firefox on ANY (2a06c9f1-76a2-4df1-bcda-7579a303d2cb)
+2017-05-24 00:15:13 INFO  testCases:25 - End of Test method openGoogle
+2017-05-24 00:15:13 INFO  testCases:34 - Start of Test method recordPageTitle
+2017-05-24 00:15:19 INFO  testCases:40 - Page title is : Google
+2017-05-24 00:15:19 INFO  testCases:41 - Page handler is : 13
+2017-05-24 00:15:19 INFO  testCases:42 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=M4MkWfUVr-_zB_WnueAN&gws_rd=ssl
+2017-05-24 00:15:19 INFO  testCases:43 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@2a265ea9
+2017-05-24 00:15:19 INFO  testCases:48 - End of Test method recordPageTitle
+2017-05-24 00:15:19 INFO  testCases:53 - Start of method afterMethod
+2017-05-24 00:15:25 INFO  testCases:61 - Browser name : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0
+2017-05-24 00:15:26 INFO  testCases:76 - END OF TEST EXECUTION
+2017-05-24 00:15:26 INFO  testCases:77 - End of method afterMethod
+2017-05-24 00:21:22 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-24 00:21:22 INFO  commonFunctions:50 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-24 00:21:22 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-24 00:21:25 INFO  testCases:23 - InternetExplorerDriver: internet explorer on WINDOWS (c774dd68-7915-4816-9dfa-dbd32bce79c6)
+2017-05-24 00:21:25 INFO  testCases:25 - End of Test method openGoogle
+2017-05-24 00:21:25 INFO  testCases:34 - Start of Test method recordPageTitle
+2017-05-24 00:21:31 INFO  testCases:53 - Start of method afterMethod
+2017-05-24 00:21:37 ERROR testCases:72 - Failed at @AfterClass in Class : class testSuit.testCases with Message Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:17602/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: c774dd68-7915-4816-9dfa-dbd32bce79c6org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:17602/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: c774dd68-7915-4816-9dfa-dbd32bce79c6
+2017-05-24 00:24:20 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-24 00:24:21 INFO  commonFunctions:50 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-24 00:24:21 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-24 00:24:23 INFO  testCases:23 - InternetExplorerDriver: internet explorer on WINDOWS (bff10918-054c-4b5d-af45-7d54b9782415)
+2017-05-24 00:24:23 INFO  testCases:25 - End of Test method openGoogle
+2017-05-24 00:24:23 INFO  testCases:34 - Start of Test method recordPageTitle
+2017-05-24 00:24:29 ERROR testCases:46 - Failed in test method recordPageTitle with message Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:2113/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: bff10918-054c-4b5d-af45-7d54b9782415org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:2113/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: bff10918-054c-4b5d-af45-7d54b9782415
+2017-05-24 00:24:29 INFO  testCases:58 - Start of method afterMethod
+2017-05-24 00:24:36 ERROR testCases:77 - Failed at @AfterClass in Class : class testSuit.testCases with Message Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:2113/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: bff10918-054c-4b5d-af45-7d54b9782415org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:2113/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: bff10918-054c-4b5d-af45-7d54b9782415

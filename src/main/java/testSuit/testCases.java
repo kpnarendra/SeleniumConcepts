@@ -4,6 +4,7 @@ import static org.testng.Assert.assertEquals;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
@@ -36,10 +37,15 @@ public class testCases extends commonFunctions {
 		} catch (InterruptedException e1) {
 			e1.printStackTrace();
 		}
-		writeLogFile.info("Page title is : " + driver.getTitle());
-		writeLogFile.info("Page handler is : " + driver.getWindowHandle());
-		writeLogFile.info("Page current URL is : " + driver.getCurrentUrl());
-		writeLogFile.info("Page Capeabilities is : " + driver.manage().window());
+		try {
+			writeLogFile.info("Page title is : " + driver.getTitle());
+			writeLogFile.info("Page handler is : " + driver.getWindowHandle());
+			writeLogFile.info("Page current URL is : " + driver.getCurrentUrl());
+			writeLogFile.info("Page Capeabilities is : " + driver.manage().window());
+		} catch (Exception e) {
+			writeLogFile.error("Failed in test method recordPageTitle with message "+ e.getMessage() + e);
+			e.printStackTrace();
+		}
 		// System.out.println("Page page Source is : "+driver.getPageSource());
 		// WebDriverWait wait = new WebDriverWait(driver, 10);
 
@@ -56,7 +62,14 @@ public class testCases extends commonFunctions {
 			e1.printStackTrace();
 		}
 		try {
+	        String browserName = (String) ((JavascriptExecutor) driver).executeScript("return navigator.userAgent;");
+	        writeLogFile.info("Browser name : " + browserName);
+			
+	        if(!(browserName.toLowerCase().contains("firefox")))
+	        {
+	        writeLogFile.info("Not FireFox browser !!!");
 			driver.close();
+	        }
 			driver.quit();
 			driver = null;
 		} catch (Exception e) {
