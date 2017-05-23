@@ -1,0 +1,38 @@
+2017-05-23 15:42:16 INFO  loggerClass:48 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-23 15:42:16 INFO  loggerClass:48 - Returned : 'NO' for Key : PROXY
+2017-05-23 15:42:33 INFO  loggerClass:23 - InternetExplorerDriver: internet explorer on WINDOWS (7f4dea6c-2dfd-4068-bde5-3e6ed7f886ba)
+2017-05-23 15:42:45 INFO  loggerClass:49 - END OF TEST EXECUTION
+2017-05-23 15:44:56 INFO  loggerClass:48 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-23 15:44:56 INFO  loggerClass:48 - Returned : 'NO' for Key : PROXY
+2017-05-23 15:45:03 INFO  loggerClass:23 - InternetExplorerDriver: internet explorer on WINDOWS (11c54956-4bb6-46ae-a633-1903e4358ed5)
+2017-05-23 15:45:12 INFO  loggerClass:49 - END OF TEST EXECUTION
+2017-05-23 16:12:31 INFO  loggerClass:48 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-23 16:12:32 INFO  loggerClass:48 - Returned : 'NO' for Key : PROXY
+2017-05-23 16:12:54 INFO  loggerClass:23 - InternetExplorerDriver: internet explorer on WINDOWS (a9444d39-2071-484a-8dbd-5fd58f1473c4)
+2017-05-23 16:13:03 ERROR loggerClass:54 - Failed at @AfterClass in Class : class testSuit.testCases with Message Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 94 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:41673/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: a9444d39-2071-484a-8dbd-5fd58f1473c4
+2017-05-23 16:47:52 INFO  loggerClass:48 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-23 16:47:52 INFO  loggerClass:48 - Returned : 'NO' for Key : PROXY
+2017-05-23 16:48:28 INFO  loggerClass:23 - InternetExplorerDriver: internet explorer on WINDOWS (a5e61e8f-18fa-49da-8b17-d4e8d6973823)
+2017-05-23 16:48:36 ERROR loggerClass:54 - Failed at @AfterClass in Class : class testSuit.testCases with Message Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 83 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:42127/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: a5e61e8f-18fa-49da-8b17-d4e8d6973823
+2017-05-23 17:25:12 INFO  loggerClass:48 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-23 17:25:12 INFO  loggerClass:48 - Returned : 'NO' for Key : PROXY
+2017-05-23 17:26:06 INFO  loggerClass:23 - InternetExplorerDriver: internet explorer on WINDOWS (53d706e7-7bf0-4baf-b9b1-ce865dba892a)
+2017-05-23 17:26:14 ERROR loggerClass:54 - Failed at @AfterClass in Class : class testSuit.testCases with Message Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 98 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:41580/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: 53d706e7-7bf0-4baf-b9b1-ce865dba892a
