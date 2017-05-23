@@ -26,6 +26,7 @@ public class testCases extends commonFunctions {
 		} catch (Exception e) {
 			writeLogFile.error("Failed in test method openGoogle with message :" + e.getMessage() + e);
 			e.printStackTrace();
+			System.exit(1);
 		}
 	}
 
@@ -45,6 +46,7 @@ public class testCases extends commonFunctions {
 		} catch (Exception e) {
 			writeLogFile.error("Failed in test method recordPageTitle with message "+ e.getMessage() + e);
 			e.printStackTrace();
+			System.exit(1);
 		}
 		// System.out.println("Page page Source is : "+driver.getPageSource());
 		// WebDriverWait wait = new WebDriverWait(driver, 10);
