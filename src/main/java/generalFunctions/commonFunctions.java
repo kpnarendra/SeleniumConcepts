@@ -69,7 +69,7 @@ public class commonFunctions {
 			writeLogFile.error("ERROR : Invalid browser type selected in data.properties");
 			System.exit(1); // For Jenkins
 		}
-		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(6,TimeUnit.SECONDS);
 		return driver;
 	}
 

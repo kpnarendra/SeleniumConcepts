@@ -1,0 +1,5 @@
+Solution for exception org.openqa.selenium.NoSuchWindowException: Unable to get browser
+--Add a folder and a Dword in regedit.
+https://stackoverflow.com/questions/24746777/selenium-nosuchwindowexception-in-ie-11
+
+

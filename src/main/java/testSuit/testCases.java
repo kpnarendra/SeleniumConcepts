@@ -34,11 +34,6 @@ public class testCases extends commonFunctions {
 	public void recordPageTitle() {
 		writeLogFile.info("Start of Test method recordPageTitle");
 		try {
-			Thread.sleep(6000);
-		} catch (InterruptedException e1) {
-			e1.printStackTrace();
-		}
-		try {
 			writeLogFile.info("Page title is : " + driver.getTitle());
 			writeLogFile.info("Page handler is : " + driver.getWindowHandle());
 			writeLogFile.info("Page current URL is : " + driver.getCurrentUrl());
