@@ -19,6 +19,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 
 
@@ -81,7 +82,13 @@ public class commonFunctions {
 		if (proxyChoice.equalsIgnoreCase("yes")) {
 
 		} else if (proxyChoice.equalsIgnoreCase("no")) {
-			driver = new InternetExplorerDriver();
+			DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer(); 
+			capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+			capabilities.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
+			
+			driver= new InternetExplorerDriver(capabilities);
+		
+			writeLogFile.info("Set following capeabilities for IE: " + capabilities + " and INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS status = " + capabilities.getCapability("INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS"));
 		} else {
 			writeLogFile.error("ERROR : Invalid PROXY configured in data.properties");
 			System.exit(1);
