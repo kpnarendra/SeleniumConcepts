@@ -478,3 +478,172 @@ System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', o
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
 Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:1115/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
 Session ID: efe1f85f-24af-4905-9bb5-2061350c7efc
+2017-05-25 10:25:04 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-25 10:25:04 INFO  commonFunctions:50 - Returned : 'CHROME' for Key : BROWSERTYPE
+2017-05-25 10:25:04 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-25 10:25:20 INFO  testCases:23 - ChromeDriver: chrome on WIN8_1 (9afe7da87a485d9d0b301bc93c227f59)
+2017-05-25 10:25:26 INFO  testCases:25 - End of Test method openGoogle
+2017-05-25 10:25:26 INFO  testCases:35 - Start of Test method recordPageTitle
+2017-05-25 10:25:26 INFO  testCases:37 - Page title is : Google
+2017-05-25 10:25:26 INFO  testCases:38 - Page handler is : CDwindow-5f24fd1d-85db-4058-bbe7-2747d0e2e06a
+2017-05-25 10:25:27 INFO  testCases:39 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=u2MmWePYDLPR8AftyqyYDg&gws_rd=ssl
+2017-05-25 10:25:27 INFO  testCases:40 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@6fa51cd4
+2017-05-25 10:25:27 INFO  testCases:50 - End of Test method recordPageTitle
+2017-05-25 10:25:27 INFO  testCases:55 - Start of method afterMethod
+2017-05-25 10:25:33 INFO  testCases:63 - Browser name : Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+2017-05-25 10:25:33 INFO  testCases:66 - Not FireFox browser !!!
+2017-05-25 10:25:37 INFO  testCases:77 - END OF TEST EXECUTION
+2017-05-25 10:25:37 INFO  testCases:78 - End of method afterMethod
+2017-05-25 10:26:43 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-25 10:26:43 INFO  commonFunctions:50 - Returned : 'FIREFOX' for Key : BROWSERTYPE
+2017-05-25 10:26:43 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-25 10:27:06 INFO  testCases:23 - FirefoxDriver: firefox on ANY (953d5f06-9924-4c5f-ba49-aeed5c73f5b8)
+2017-05-25 10:27:12 INFO  testCases:25 - End of Test method openGoogle
+2017-05-25 10:27:12 INFO  testCases:35 - Start of Test method recordPageTitle
+2017-05-25 10:27:12 INFO  testCases:37 - Page title is : Google
+2017-05-25 10:27:12 INFO  testCases:38 - Page handler is : 13
+2017-05-25 10:27:12 INFO  testCases:39 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=ImQmWaTuGafR8AeE36XgBg&gws_rd=ssl
+2017-05-25 10:27:12 INFO  testCases:40 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@413d1baf
+2017-05-25 10:27:12 INFO  testCases:50 - End of Test method recordPageTitle
+2017-05-25 10:27:12 INFO  testCases:55 - Start of method afterMethod
+2017-05-25 10:27:19 INFO  testCases:63 - Browser name : Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0
+2017-05-25 10:27:20 INFO  testCases:77 - END OF TEST EXECUTION
+2017-05-25 10:27:20 INFO  testCases:78 - End of method afterMethod
+2017-05-25 10:28:30 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-25 10:28:30 INFO  commonFunctions:50 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-25 10:28:30 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-25 10:28:41 INFO  testCases:23 - InternetExplorerDriver: internet explorer on WINDOWS (4d25c606-210b-49ea-ad25-d387dc89ecb2)
+2017-05-25 10:28:41 INFO  testCases:25 - End of Test method openGoogle
+2017-05-25 10:28:41 INFO  testCases:35 - Start of Test method recordPageTitle
+2017-05-25 10:28:41 INFO  testCases:37 - Page title is : WebDriver
+2017-05-25 10:28:41 INFO  testCases:38 - Page handler is : 4b8964e9-ad5f-4f74-a213-82091a2dee84
+2017-05-25 10:28:41 INFO  testCases:39 - Page current URL is : http://localhost:4460/
+2017-05-25 10:28:41 INFO  testCases:40 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@5b247367
+2017-05-25 10:28:41 INFO  testCases:55 - Start of method afterMethod
+2017-05-25 10:28:47 ERROR testCases:72 - Failed at @AfterClass in Class : class testSuit.testCases with Message Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 62 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:4460/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: 4d25c606-210b-49ea-ad25-d387dc89ecb2org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 62 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:4460/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: 4d25c606-210b-49ea-ad25-d387dc89ecb2
+2017-05-25 12:05:20 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-25 12:05:20 INFO  commonFunctions:50 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-25 12:05:20 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-25 12:05:40 INFO  testCases:23 - InternetExplorerDriver: internet explorer on WINDOWS (2d9bcc25-761f-41a5-ab64-a5f6b127a5b8)
+2017-05-25 12:05:40 INFO  testCases:25 - End of Test method openGoogle
+2017-05-25 12:05:40 INFO  testCases:35 - Start of Test method recordPageTitle
+2017-05-25 12:05:40 INFO  testCases:37 - Page title is : WebDriver
+2017-05-25 12:05:40 INFO  testCases:38 - Page handler is : 9f9066af-a743-43e4-8207-c09ebfa7ccc1
+2017-05-25 12:05:41 ERROR testCases:42 - Failed in test method recordPageTitle with message Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:8155/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: 2d9bcc25-761f-41a5-ab64-a5f6b127a5b8org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:8155/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: 2d9bcc25-761f-41a5-ab64-a5f6b127a5b8
+2017-05-25 14:23:53 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-25 14:23:54 INFO  commonFunctions:50 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-25 14:23:54 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-25 14:24:56 INFO  testCases:23 - InternetExplorerDriver: internet explorer on WINDOWS (ee36764f-1e74-428e-99b0-1dde5055224a)
+2017-05-25 14:24:59 INFO  testCases:25 - End of Test method openGoogle
+2017-05-25 14:25:00 INFO  testCases:35 - Start of Test method recordPageTitle
+2017-05-25 14:25:00 INFO  testCases:37 - Page title is : WebDriver
+2017-05-25 14:25:00 INFO  testCases:38 - Page handler is : 1f006a43-1a6c-4b7f-8988-28be344a0380
+2017-05-25 14:25:01 INFO  testCases:39 - Page current URL is : http://localhost:15040/
+2017-05-25 14:25:01 INFO  testCases:40 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@5b247367
+2017-05-25 14:25:04 INFO  testCases:55 - Start of method afterMethod
+2017-05-25 14:25:14 ERROR testCases:72 - Failed at @AfterClass in Class : class testSuit.testCases with Message Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:15040/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: ee36764f-1e74-428e-99b0-1dde5055224aorg.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:15040/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: ee36764f-1e74-428e-99b0-1dde5055224a
+2017-05-25 15:53:19 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-25 15:53:19 INFO  commonFunctions:50 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-25 15:53:19 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-25 15:53:43 INFO  testCases:23 - InternetExplorerDriver: internet explorer on WINDOWS (b2f32261-b1ba-4f46-84e7-bc762ff06b65)
+2017-05-25 15:53:44 INFO  testCases:25 - End of Test method openGoogle
+2017-05-25 15:53:44 INFO  testCases:35 - Start of Test method recordPageTitle
+2017-05-25 15:53:44 INFO  testCases:37 - Page title is : WebDriver
+2017-05-25 15:53:44 INFO  testCases:38 - Page handler is : ea957bf5-4d32-4f6d-ad99-9f469661bd44
+2017-05-25 15:53:44 INFO  testCases:39 - Page current URL is : http://localhost:14583/
+2017-05-25 15:53:44 INFO  testCases:40 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@5b247367
+2017-05-25 15:53:45 INFO  testCases:55 - Start of method afterMethod
+2017-05-25 15:53:52 ERROR testCases:72 - Failed at @AfterClass in Class : class testSuit.testCases with Message Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 78 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:14583/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: b2f32261-b1ba-4f46-84e7-bc762ff06b65org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 78 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:14583/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: b2f32261-b1ba-4f46-84e7-bc762ff06b65
+2017-05-25 15:59:13 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-25 15:59:13 INFO  commonFunctions:50 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-25 15:59:13 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-25 15:59:33 INFO  testCases:23 - InternetExplorerDriver: internet explorer on WINDOWS (6e4d4956-a621-4808-805d-0ead8becc061)
+2017-05-25 15:59:34 INFO  testCases:25 - End of Test method openGoogle
+2017-05-25 15:59:34 INFO  testCases:35 - Start of Test method recordPageTitle
+2017-05-25 15:59:34 INFO  testCases:37 - Page title is : WebDriver
+2017-05-25 15:59:34 INFO  testCases:38 - Page handler is : d22716d8-d473-4565-aec6-5f1fa92ed477
+2017-05-25 15:59:34 INFO  testCases:39 - Page current URL is : http://localhost:26401/
+2017-05-25 15:59:34 INFO  testCases:40 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@5b247367
+2017-05-25 15:59:34 INFO  testCases:55 - Start of method afterMethod
+2017-05-25 15:59:41 ERROR testCases:72 - Failed at @AfterClass in Class : class testSuit.testCases with Message Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:26401/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: 6e4d4956-a621-4808-805d-0ead8becc061org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:26401/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: 6e4d4956-a621-4808-805d-0ead8becc061
+2017-05-25 16:00:46 INFO  testCases:21 - Start of Test method openGoogle
+2017-05-25 16:00:46 INFO  commonFunctions:50 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-25 16:00:46 INFO  commonFunctions:50 - Returned : 'NO' for Key : PROXY
+2017-05-25 16:01:10 INFO  testCases:23 - InternetExplorerDriver: internet explorer on WINDOWS (cfada8e9-32eb-41db-9de6-5cd8016d7d6b)
+2017-05-25 16:01:11 INFO  testCases:25 - End of Test method openGoogle
+2017-05-25 16:01:11 INFO  testCases:35 - Start of Test method recordPageTitle
+2017-05-25 16:01:11 INFO  testCases:37 - Page title is : WebDriver
+2017-05-25 16:01:11 INFO  testCases:38 - Page handler is : ecc8e445-3f4d-4bf8-b51e-d77ed2da0103
+2017-05-25 16:01:11 ERROR testCases:42 - Failed in test method recordPageTitle with message Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:14510/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: cfada8e9-32eb-41db-9de6-5cd8016d7d6borg.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLRKEC80998L', ip: '10.66.193.48', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:14510/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: cfada8e9-32eb-41db-9de6-5cd8016d7d6b
