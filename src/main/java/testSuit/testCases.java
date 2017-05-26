@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchWindowException;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
@@ -26,7 +27,7 @@ public class testCases extends commonFunctions {
 			writeLogFile.info(driver);
 			driver.get("http://www.google.com");
 			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-			Thread.sleep(3000);
+			Thread.sleep(10000);
 			writeLogFile.info("End of Test method testOpenGoogle");
 		} catch (Exception e) {
 			writeLogFile.error("Failed in test method testOpenGoogle with message :" + e.getMessage() + e);
@@ -44,7 +45,7 @@ public class testCases extends commonFunctions {
 			writeLogFile.info("Page current URL is : " + driver.getCurrentUrl());
 			writeLogFile.info("Page Capeabilities is : " + driver.manage().window());
 			writeLogFile.info("End of try block in Test method testRecordPageTitle");
-		} catch (Exception e) {
+		} catch (NoSuchWindowException e) {
 			writeLogFile.error("Failed in test method testRecordPageTitle with message " + e.getMessage() + e);
 			e.printStackTrace();
 			System.exit(1);
