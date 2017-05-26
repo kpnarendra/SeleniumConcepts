@@ -21,8 +21,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-
-
 public class commonFunctions {
 
 	// ----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -33,9 +31,8 @@ public class commonFunctions {
 	public WebDriver driver;
 	public static final Logger writeLogFile = LogManager.getLogger(commonFunctions.class);
 
-
 	private String fetchProperties(String key) {
-
+		writeLogFile.info("Start of function fetchProperties for key = " + key);
 		File file = new File(System.getProperty("user.dir") + "/src/main/resources/data.properties");
 		FileInputStream fileInput;
 		Properties prop = new Properties();
@@ -49,7 +46,9 @@ public class commonFunctions {
 			System.exit(1); // For Jenkins
 		}
 		writeLogFile.info("Returned : " + "'" + prop.getProperty(key) + "'" + " for Key : " + key);
+		writeLogFile.info("End of function fetchProperties for key = " + key);
 		return prop.getProperty(key);
+
 	}
 
 	// ----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -57,9 +56,10 @@ public class commonFunctions {
 	// Purpose : Invoke any browser as defined in data.properties file.
 	// ----------------------------------------------------------------------------------------------------------------------------------------------------
 	public WebDriver invokeBrowser() {
+		writeLogFile.info("Start of function invokeBrowser");
 		String browserTypeChoice = fetchProperties("BROWSERTYPE");
 		System.out.println("browserTypeChoice = " + browserTypeChoice);
-		
+
 		if (browserTypeChoice.equals("IE")) {
 			invokeIEDriver();
 		} else if (browserTypeChoice.equals("CHROME")) {
@@ -70,34 +70,39 @@ public class commonFunctions {
 			writeLogFile.error("ERROR : Invalid browser type selected in data.properties");
 			System.exit(1); // For Jenkins
 		}
-		driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
+		
+		writeLogFile.info("End of function invokeBrowser");
 		return driver;
+
 	}
 
 	public void invokeIEDriver() {
-
+		writeLogFile.info("Start of function invokeIEDriver");
 		String proxyChoice = fetchProperties("PROXY");
 		System.setProperty("webdriver.ie.driver",
 				System.getProperty("user.dir") + "\\IEDriverServer\\IEDriverServer.exe");
 		if (proxyChoice.equalsIgnoreCase("yes")) {
 
 		} else if (proxyChoice.equalsIgnoreCase("no")) {
-			DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer(); 
-			capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-			capabilities.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
-			
-			driver= new InternetExplorerDriver(capabilities);
-		
-			writeLogFile.info("Set following capeabilities for IE: " + capabilities + " and INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS status = " + capabilities.getCapability("INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS"));
+			//DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
+			//capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+			//capabilities.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
+
+			driver = new InternetExplorerDriver();
+
+			//writeLogFile.info("Set following capeabilities for IE: " + capabilities
+			//		+ " and INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS status = "
+			//		+ capabilities.getCapability("INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS"));
 		} else {
 			writeLogFile.error("ERROR : Invalid PROXY configured in data.properties");
 			System.exit(1);
 		}
 		driver.manage().window().maximize();
+		writeLogFile.info("End of function invokeIEDriver");
 	}
 
 	public void invokeChromeDriver() {
-
+		writeLogFile.info("Start of function invokeChromeDriver");
 		String proxyChoice = fetchProperties("PROXY");
 		if (proxyChoice.equalsIgnoreCase("yes")) {
 
@@ -110,9 +115,11 @@ public class commonFunctions {
 			System.exit(1);
 		}
 		driver.manage().window().maximize();
+		writeLogFile.info("End of function invokeChromeDriver");
 	}
 
 	public void invokeFireFoxDriver() {
+		writeLogFile.info("Start of function invokeFireFoxDriver");
 		String proxyChoice = fetchProperties("PROXY");
 		if (proxyChoice.equalsIgnoreCase("yes")) {
 
@@ -125,9 +132,7 @@ public class commonFunctions {
 			System.exit(1);
 		}
 		driver.manage().window().maximize();
+		writeLogFile.info("End of function invokeFireFoxDriver");
 	}
 
-	
-	
-	
 }
