@@ -7,6 +7,7 @@ For 64-bit Windows installations, the key is HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432
 Please note that the FEATURE_BFCACHE subkey may or may not be present, and should be created if it is not present. 
 Important - Inside this key, create a DWORD value named iexplore.exe with the value of 0.
 Solution Link / Source  : https://stackoverflow.com/questions/24746777/selenium-nosuchwindowexception-in-ie-11
+Also Read : http://jimevansmusic.blogspot.in/2012/08/youre-doing-it-wrong-protected-mode-and.html
 
 
 Problem : Selenium WebDriver and IE11 - org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
@@ -27,3 +28,4 @@ https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities
 Problem :
 Solution :
 Solution Link / Source :
+Also Read

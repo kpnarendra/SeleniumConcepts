@@ -84,11 +84,11 @@ public class commonFunctions {
 		if (proxyChoice.equalsIgnoreCase("yes")) {
 
 		} else if (proxyChoice.equalsIgnoreCase("no")) {
-			//DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
-			//capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-			//capabilities.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
+			DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
+			capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+			capabilities.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
 
-			driver = new InternetExplorerDriver();
+			driver = new InternetExplorerDriver(capabilities);
 
 			//writeLogFile.info("Set following capeabilities for IE: " + capabilities
 			//		+ " and INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS status = "
