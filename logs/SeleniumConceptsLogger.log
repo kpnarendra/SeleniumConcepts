@@ -1562,3 +1562,153 @@ System info: host: 'DESKTOP-E6N913C', ip: '192.168.234.1', os.name: 'Windows 10'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
 Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:34694/, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
 Session ID: b3a98b43-e20f-4a54-af83-8f26dd44b0a4
+2017-05-27 09:04:36 INFO  testCases:25 - Start of Test method testOpenGoogle
+2017-05-27 09:04:36 INFO  commonFunctions:59 - Start of function invokeBrowser
+2017-05-27 09:04:36 INFO  commonFunctions:35 - Start of function fetchProperties for key = BROWSERTYPE
+2017-05-27 09:04:36 INFO  commonFunctions:48 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-27 09:04:36 INFO  commonFunctions:49 - End of function fetchProperties for key = BROWSERTYPE
+2017-05-27 09:04:36 INFO  commonFunctions:80 - Start of function invokeIEDriver
+2017-05-27 09:04:36 INFO  commonFunctions:35 - Start of function fetchProperties for key = PROXY
+2017-05-27 09:04:36 INFO  commonFunctions:48 - Returned : 'NO' for Key : PROXY
+2017-05-27 09:04:36 INFO  commonFunctions:49 - End of function fetchProperties for key = PROXY
+2017-05-27 09:04:39 INFO  commonFunctions:101 - End of function invokeIEDriver
+2017-05-27 09:04:39 INFO  commonFunctions:74 - End of function invokeBrowser
+2017-05-27 09:04:39 INFO  testCases:27 - InternetExplorerDriver: internet explorer on WINDOWS (bc0007f5-cfcf-406c-9583-e0d7fea30de3)
+2017-05-27 09:04:50 INFO  testCases:31 - End of Test method testOpenGoogle
+2017-05-27 09:04:50 INFO  testCases:41 - Start of Test method testRecordPageTitle
+2017-05-27 09:04:50 INFO  testCases:43 - Page title is : Google
+2017-05-27 09:04:50 INFO  testCases:44 - Page handler is : 3b8ee533-e119-43d3-b161-2efdac981318
+2017-05-27 09:04:50 INFO  testCases:45 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=xPMoWfDsHMGL8Qf614OwDA&gws_rd=ssl
+2017-05-27 09:04:50 INFO  testCases:46 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@2af004b
+2017-05-27 09:04:50 INFO  testCases:47 - End of try block in Test method testRecordPageTitle
+2017-05-27 09:04:50 INFO  testCases:57 - End of Test method recordPageTitle
+2017-05-27 09:04:50 INFO  testCases:62 - Start of method afterMethod
+2017-05-27 09:04:56 INFO  testCases:70 - Browser name : Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; InfoPath.3; rv:11.0) like Gecko
+2017-05-27 09:04:56 INFO  testCases:73 - Not FireFox browser !!!
+2017-05-27 09:04:57 INFO  testCases:84 - END OF TEST EXECUTION
+2017-05-27 09:04:57 INFO  testCases:85 - End of method afterMethod
+2017-05-27 09:05:19 INFO  testCases:25 - Start of Test method testOpenGoogle
+2017-05-27 09:05:19 INFO  commonFunctions:59 - Start of function invokeBrowser
+2017-05-27 09:05:19 INFO  commonFunctions:35 - Start of function fetchProperties for key = BROWSERTYPE
+2017-05-27 09:05:19 INFO  commonFunctions:48 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-27 09:05:19 INFO  commonFunctions:49 - End of function fetchProperties for key = BROWSERTYPE
+2017-05-27 09:05:19 INFO  commonFunctions:80 - Start of function invokeIEDriver
+2017-05-27 09:05:19 INFO  commonFunctions:35 - Start of function fetchProperties for key = PROXY
+2017-05-27 09:05:19 INFO  commonFunctions:48 - Returned : 'NO' for Key : PROXY
+2017-05-27 09:05:19 INFO  commonFunctions:49 - End of function fetchProperties for key = PROXY
+2017-05-27 09:05:22 INFO  commonFunctions:101 - End of function invokeIEDriver
+2017-05-27 09:05:22 INFO  commonFunctions:74 - End of function invokeBrowser
+2017-05-27 09:05:22 INFO  testCases:27 - InternetExplorerDriver: internet explorer on WINDOWS (10aae488-a048-403b-93f1-2f3fb257d5ca)
+2017-05-27 09:05:33 INFO  testCases:31 - End of Test method testOpenGoogle
+2017-05-27 09:05:33 INFO  testCases:41 - Start of Test method testRecordPageTitle
+2017-05-27 09:05:33 INFO  testCases:43 - Page title is : Google
+2017-05-27 09:05:33 INFO  testCases:44 - Page handler is : 905c78b0-77d0-4975-a57f-a0ecb136aacd
+2017-05-27 09:05:33 INFO  testCases:45 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=7_MoWfezJ8qL8QeR94NY&gws_rd=ssl
+2017-05-27 09:05:33 INFO  testCases:46 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@2af004b
+2017-05-27 09:05:33 INFO  testCases:47 - End of try block in Test method testRecordPageTitle
+2017-05-27 09:05:33 INFO  testCases:57 - End of Test method recordPageTitle
+2017-05-27 09:05:33 INFO  testCases:62 - Start of method afterMethod
+2017-05-27 09:05:39 INFO  testCases:70 - Browser name : Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; InfoPath.3; rv:11.0) like Gecko
+2017-05-27 09:05:39 INFO  testCases:73 - Not FireFox browser !!!
+2017-05-27 09:05:40 INFO  testCases:84 - END OF TEST EXECUTION
+2017-05-27 09:05:40 INFO  testCases:85 - End of method afterMethod
+2017-05-27 09:10:49 INFO  testCases:25 - Start of Test method testOpenGoogle
+2017-05-27 09:10:49 INFO  commonFunctions:59 - Start of function invokeBrowser
+2017-05-27 09:10:49 INFO  commonFunctions:35 - Start of function fetchProperties for key = BROWSERTYPE
+2017-05-27 09:10:49 INFO  commonFunctions:48 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-27 09:10:49 INFO  commonFunctions:49 - End of function fetchProperties for key = BROWSERTYPE
+2017-05-27 09:10:49 INFO  commonFunctions:80 - Start of function invokeIEDriver
+2017-05-27 09:10:49 INFO  commonFunctions:35 - Start of function fetchProperties for key = PROXY
+2017-05-27 09:10:49 INFO  commonFunctions:48 - Returned : 'NO' for Key : PROXY
+2017-05-27 09:10:49 INFO  commonFunctions:49 - End of function fetchProperties for key = PROXY
+2017-05-27 09:10:51 INFO  commonFunctions:101 - End of function invokeIEDriver
+2017-05-27 09:10:51 INFO  commonFunctions:74 - End of function invokeBrowser
+2017-05-27 09:10:51 INFO  testCases:27 - InternetExplorerDriver: internet explorer on WINDOWS (b4633b4a-53e0-48c3-8fc6-91795f3d3906)
+2017-05-27 09:11:02 INFO  testCases:31 - End of Test method testOpenGoogle
+2017-05-27 09:11:02 INFO  testCases:41 - Start of Test method testRecordPageTitle
+2017-05-27 09:11:03 INFO  testCases:43 - Page title is : Google
+2017-05-27 09:11:03 INFO  testCases:44 - Page handler is : 562a296d-8157-48fb-bf2a-614ca67b8411
+2017-05-27 09:11:03 INFO  testCases:45 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=OfUoWYnQDsiL8QftlafQDg&gws_rd=ssl
+2017-05-27 09:11:03 INFO  testCases:46 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@2af004b
+2017-05-27 09:11:03 INFO  testCases:47 - End of try block in Test method testRecordPageTitle
+2017-05-27 09:11:03 INFO  testCases:57 - End of Test method recordPageTitle
+2017-05-27 09:11:03 INFO  testCases:62 - Start of method afterMethod
+2017-05-27 09:11:09 INFO  testCases:70 - Browser name : Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; InfoPath.3; rv:11.0) like Gecko
+2017-05-27 09:11:09 INFO  testCases:73 - Not FireFox browser !!!
+2017-05-27 09:11:10 INFO  testCases:84 - END OF TEST EXECUTION
+2017-05-27 09:11:10 INFO  testCases:85 - End of method afterMethod
+2017-05-27 09:11:25 INFO  testCases:25 - Start of Test method testOpenGoogle
+2017-05-27 09:11:25 INFO  commonFunctions:59 - Start of function invokeBrowser
+2017-05-27 09:11:25 INFO  commonFunctions:35 - Start of function fetchProperties for key = BROWSERTYPE
+2017-05-27 09:11:25 INFO  commonFunctions:48 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-27 09:11:25 INFO  commonFunctions:49 - End of function fetchProperties for key = BROWSERTYPE
+2017-05-27 09:11:25 INFO  commonFunctions:80 - Start of function invokeIEDriver
+2017-05-27 09:11:25 INFO  commonFunctions:35 - Start of function fetchProperties for key = PROXY
+2017-05-27 09:11:25 INFO  commonFunctions:48 - Returned : 'NO' for Key : PROXY
+2017-05-27 09:11:25 INFO  commonFunctions:49 - End of function fetchProperties for key = PROXY
+2017-05-27 09:11:28 INFO  commonFunctions:101 - End of function invokeIEDriver
+2017-05-27 09:11:28 INFO  commonFunctions:74 - End of function invokeBrowser
+2017-05-27 09:11:28 INFO  testCases:27 - InternetExplorerDriver: internet explorer on WINDOWS (a5d8c203-91de-4d21-8f30-e0b41c88f6cb)
+2017-05-27 09:11:39 INFO  testCases:31 - End of Test method testOpenGoogle
+2017-05-27 09:11:39 INFO  testCases:41 - Start of Test method testRecordPageTitle
+2017-05-27 09:11:39 INFO  testCases:43 - Page title is : Google
+2017-05-27 09:11:39 INFO  testCases:44 - Page handler is : e79450a1-ef67-405e-8af4-465faa8d41c1
+2017-05-27 09:11:39 INFO  testCases:45 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=XfUoWfqyNMGL8Qf614OwDA&gws_rd=ssl
+2017-05-27 09:11:39 INFO  testCases:46 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@2af004b
+2017-05-27 09:11:39 INFO  testCases:47 - End of try block in Test method testRecordPageTitle
+2017-05-27 09:11:39 INFO  testCases:57 - End of Test method recordPageTitle
+2017-05-27 09:11:39 INFO  testCases:62 - Start of method afterMethod
+2017-05-27 09:11:45 INFO  testCases:70 - Browser name : Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; InfoPath.3; rv:11.0) like Gecko
+2017-05-27 09:11:45 INFO  testCases:73 - Not FireFox browser !!!
+2017-05-27 09:11:46 INFO  testCases:84 - END OF TEST EXECUTION
+2017-05-27 09:11:46 INFO  testCases:85 - End of method afterMethod
+2017-05-27 09:22:35 INFO  testCases:25 - Start of Test method testOpenGoogle
+2017-05-27 09:22:35 INFO  commonFunctions:59 - Start of function invokeBrowser
+2017-05-27 09:22:35 INFO  commonFunctions:35 - Start of function fetchProperties for key = BROWSERTYPE
+2017-05-27 09:22:35 INFO  commonFunctions:48 - Returned : 'IE' for Key : BROWSERTYPE
+2017-05-27 09:22:35 INFO  commonFunctions:49 - End of function fetchProperties for key = BROWSERTYPE
+2017-05-27 09:22:35 INFO  commonFunctions:80 - Start of function invokeIEDriver
+2017-05-27 09:22:35 INFO  commonFunctions:35 - Start of function fetchProperties for key = PROXY
+2017-05-27 09:22:35 INFO  commonFunctions:48 - Returned : 'NO' for Key : PROXY
+2017-05-27 09:22:35 INFO  commonFunctions:49 - End of function fetchProperties for key = PROXY
+2017-05-27 09:22:38 INFO  commonFunctions:101 - End of function invokeIEDriver
+2017-05-27 09:22:38 INFO  commonFunctions:74 - End of function invokeBrowser
+2017-05-27 09:22:38 INFO  testCases:27 - InternetExplorerDriver: internet explorer on WINDOWS (d9ca96e7-3dec-4986-909c-51db620a4824)
+2017-05-27 09:22:49 INFO  testCases:31 - End of Test method testOpenGoogle
+2017-05-27 09:22:49 INFO  testCases:41 - Start of Test method testRecordPageTitle
+2017-05-27 09:22:49 INFO  testCases:43 - Page title is : Google
+2017-05-27 09:22:49 INFO  testCases:44 - Page handler is : d9c024f0-951e-4f87-80e4-2b480216f815
+2017-05-27 09:22:49 INFO  testCases:45 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=-_coWdDMJcaL8Qegl76YAw&gws_rd=ssl
+2017-05-27 09:22:49 INFO  testCases:46 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@2af004b
+2017-05-27 09:22:49 INFO  testCases:47 - End of try block in Test method testRecordPageTitle
+2017-05-27 09:22:49 INFO  testCases:57 - End of Test method recordPageTitle
+2017-05-27 09:22:49 INFO  testCases:62 - Start of method afterMethod
+2017-05-27 09:22:55 INFO  testCases:70 - Browser name : Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; InfoPath.3; rv:11.0) like Gecko
+2017-05-27 09:22:55 INFO  testCases:73 - Not FireFox browser !!!
+2017-05-27 09:22:56 INFO  testCases:84 - END OF TEST EXECUTION
+2017-05-27 09:22:56 INFO  testCases:85 - End of method afterMethod
+2017-05-27 11:46:31 INFO  testCases:25 - Start of Test method testOpenGoogle
+2017-05-27 11:46:31 INFO  commonFunctions:59 - Start of function invokeBrowser
+2017-05-27 11:46:31 INFO  commonFunctions:35 - Start of function fetchProperties for key = BROWSERTYPE
+2017-05-27 11:46:31 INFO  commonFunctions:48 - Returned : 'CHROME' for Key : BROWSERTYPE
+2017-05-27 11:46:31 INFO  commonFunctions:49 - End of function fetchProperties for key = BROWSERTYPE
+2017-05-27 11:46:31 INFO  commonFunctions:105 - Start of function invokeChromeDriver
+2017-05-27 11:46:31 INFO  commonFunctions:35 - Start of function fetchProperties for key = PROXY
+2017-05-27 11:46:31 INFO  commonFunctions:48 - Returned : 'NO' for Key : PROXY
+2017-05-27 11:46:31 INFO  commonFunctions:49 - End of function fetchProperties for key = PROXY
+2017-05-27 11:46:37 INFO  commonFunctions:118 - End of function invokeChromeDriver
+2017-05-27 11:46:37 INFO  commonFunctions:74 - End of function invokeBrowser
+2017-05-27 11:46:37 INFO  testCases:27 - ChromeDriver: chrome on XP (9e02b54ec9397da9a83ee2d586c6f11e)
+2017-05-27 11:46:49 INFO  testCases:31 - End of Test method testOpenGoogle
+2017-05-27 11:46:49 INFO  testCases:41 - Start of Test method testRecordPageTitle
+2017-05-27 11:46:49 INFO  testCases:43 - Page title is : Google
+2017-05-27 11:46:49 INFO  testCases:44 - Page handler is : CDwindow-7e5a27ae-3d9b-4b85-87a3-ab05879050f0
+2017-05-27 11:46:49 INFO  testCases:45 - Page current URL is : https://www.google.co.in/?gfe_rd=cr&ei=uxkpWd77Iavv8weD7ZfoDw&gws_rd=ssl
+2017-05-27 11:46:49 INFO  testCases:46 - Page Capeabilities is : org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@242b836
+2017-05-27 11:46:49 INFO  testCases:47 - End of try block in Test method testRecordPageTitle
+2017-05-27 11:46:49 INFO  testCases:57 - End of Test method recordPageTitle
+2017-05-27 11:46:49 INFO  testCases:62 - Start of method afterMethod
+2017-05-27 11:46:55 INFO  testCases:70 - Browser name : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+2017-05-27 11:46:55 INFO  testCases:73 - Not FireFox browser !!!
+2017-05-27 11:46:58 INFO  testCases:84 - END OF TEST EXECUTION
+2017-05-27 11:46:58 INFO  testCases:85 - End of method afterMethod
